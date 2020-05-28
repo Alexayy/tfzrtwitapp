@@ -1,0 +1,27 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    padding-top: 19px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    color: #555555;
+    border-top: 1px solid #000000;
+}
+
+.navbar {
+    background-color: #C0C0C0;
+}
+
+.container {
+    background-image: url("http://api.thumbr.it/whitenoise-361x370.png?");
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}

@@ -1,0 +1,110 @@
+<#macro masterTemplate title="Welcome">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://www.shareicon.net/data/16x16/2016/09/07/827030_bird_512x512.png">
+        <title>${title} | MiniTwit
+        </title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+    </head>
+    <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-dark" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"
+                        data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="/">
+                    <i class="fas fa-dove"></i>
+                    MiniTwit
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <#if user??>
+                        <li><a href="/">My Timeline</a></li>
+                        <li><a href="/public">Public Timeline</a></li>
+                        <li><a href="/logout">Sign Out [${user.username}]</a></li>
+                    <#else>
+                        <li><a href="/public">Public Timeline</a></li>
+                        <li><a href="/register">Sign Up</a></li>
+                        <li><a href="/login">Sign In</a></li>
+                    </#if>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <#nested />
+        </div>
+
+        <footer class="footer">
+            <div class="icon-bar jumbotron">
+                <p class="display-4">
+                    <i class="fas fa-dove"></i>
+                    MiniTwit &mdash; University Assignment
+                </p>
+                <h1 class="display-4">Twitter Clone</h1>
+                <br>
+
+                <p>Done by: Aleksa Cakic;
+                <p class="text-primary text-capitalize text-danger">SI 23/17</p>
+
+                <br>
+
+                <h1 class="display-4">
+                    <a href="https://www.facebook.com/profile.php?id=100001669704325" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/aleksa-cakic-b8a426184/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://gamemess.itch.io/" target="_blank">
+                        <i class="fas fa-gamepad"></i>
+                    </a>
+
+                    <a href="https://soundcloud.com/lorelei-frost/tracks" target="_blank">
+                        <i class="fab fa-soundcloud"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/user/AkiFilozoff" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a href="https://github.com/Alexayy" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://gitlab.com/Alexayy" target="_blank">
+                        <i class="fab fa-gitlab"></i>
+                    </a>
+                </h1>
+
+                <br>
+                <p>Tech Stack: </p>
+                <p><a href="http://sparkjava.com/" target="_blank">Spark Java</a>, <a href="https://spring.io/"
+                                                                                      target="_blank">Java Spring</a>,
+                    <a href="https://freemarker.apache.org/" target="_blank">Java FreeMaker Template Engine</a>,
+                    <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4 CSS Framework</a></p>
+            </div>
+
+        </footer>
+    </div><!-- /container -->
+    </body>
+    </html>
+</#macro>
