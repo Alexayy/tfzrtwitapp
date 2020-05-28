@@ -30,6 +30,8 @@ import java.util.Map;
  * it is traditionally associated with Java EE applications and with relational databases
  * (accessed via the JDBC API because of its origin in Sun Microsystems' best practice guidelines[1]
  * "Core J2EE Patterns" for that platform).
+ *
+ * @author Aleksa Cakic
  */
 @Repository
 public class MessageDaoImpl implements MessageDao {

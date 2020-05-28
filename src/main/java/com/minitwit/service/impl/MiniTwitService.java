@@ -13,6 +13,8 @@ import java.util.List;
 
 /**
  * MiniTwit service provider.
+ *
+ * @author Aleksa Cakic
  */
 @Service
 public class MiniTwitService {

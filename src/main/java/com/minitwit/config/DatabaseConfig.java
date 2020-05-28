@@ -11,6 +11,8 @@ import javax.sql.DataSource;
 /**
  * Databse Configuration file holding the Spring Bean
  * that has source for HSQL setup and scripts.
+ *
+ * @author Aleksa Cakic
  */
 @Configuration
 public class DatabaseConfig {

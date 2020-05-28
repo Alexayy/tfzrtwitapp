@@ -1,5 +1,8 @@
 package com.minitwit.model;
 
+/**
+ * @author Aleksa Cakic
+ */
 public class LoginResult {
 	
 	private String error;

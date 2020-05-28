@@ -2,6 +2,9 @@ package com.minitwit.util;
 
 import org.mindrot.jbcrypt.BCrypt;
 
+/**
+ * @author Aleksa Cakic
+ */
 public class PasswordUtil {
 
 	public static String hashPassword(String pwd) {

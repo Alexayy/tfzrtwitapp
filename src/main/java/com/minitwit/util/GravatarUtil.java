@@ -5,7 +5,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * Gravatar class that fetches random gravar from the API
+ * Gravatar class that fetches random gravar from the API.
+ *
+ * @author Aleksa Cakic
  */
 public class GravatarUtil {
     private static String hex(byte[] array) {

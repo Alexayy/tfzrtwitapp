@@ -7,6 +7,8 @@ import java.util.List;
 
 /**
  * DAO interface that has it's methods implemented in @MesageDaoImpl
+ *
+ * @author Aleksa Cakic
  */
 public interface MessageDao {
 	List<Message> getUserTimelineMessages(User user);

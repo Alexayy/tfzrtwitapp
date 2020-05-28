@@ -7,6 +7,9 @@ import spark.Spark;
 
 import java.util.HashMap;
 
+/**
+ * @author Aleksa Cakic
+ */
 public class CorsFilter {
 
     private static final HashMap<String, String> corsHeaders = new HashMap<>();

@@ -22,6 +22,8 @@ import static spark.Spark.*;
 
 /**
  * Has setup routes and REST methods that are being mapped trough Javaspark routing.
+ *
+ * @author Aleksa Cakic
  */
 public class WebConfig {
 

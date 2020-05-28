@@ -3,6 +3,9 @@ package com.minitwit.model;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * @author Aleksa Cakic
+ */
 public class Message {
 	private int id;
 	

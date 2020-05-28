@@ -4,6 +4,7 @@ import com.minitwit.model.User;
 
 /**
  * DAO interface that has it's methods implemented in @UserDaoImpl
+ * @author Aleksa Cakic
  */
 public interface UserDao {
 
