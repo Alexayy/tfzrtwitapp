@@ -452,5 +452,8 @@ dist/
 tmp/
 temp/
 
+# Ignore node_modules directory
+node_modules
+
 # End of https://www.gitignore.io/api/node
 # End of https://www.gitignore.io/api/java,linux,spark,maven,java-web,intellij,intellij+all,intellij+iml
