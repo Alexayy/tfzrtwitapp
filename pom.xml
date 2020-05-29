@@ -20,22 +20,6 @@
     </properties>
 
 
-    <repositories>
-        <repository>
-            <id>tfzrminitwit</id>
-            <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
-        </repository>
-    </repositories>
-    <distributionManagement>
-        <repository>
-            <id>tfzrminitwit</id>
-            <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
-        </repository>
-        <snapshotRepository>
-            <id>tfzrminitwit</id>
-            <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <dependencies>
         <!-- Spark Java -->
@@ -181,16 +165,7 @@
                     </archive>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>com.heroku.sdk</groupId>
-                <artifactId>heroku-maven-plugin</artifactId>
-                <version>3.0.2</version>
-                <configuration>
-                    <processTypes>
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* App</web>
-                    </processTypes>
-                </configuration>
-            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -216,4 +191,21 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>minitwit</id>
+            <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>minitwit</id>
+            <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
+        </repository>
+        <snapshotRepository>
+            <id>minitwit</id>
+            <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

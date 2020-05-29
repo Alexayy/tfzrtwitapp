@@ -4,11 +4,11 @@
                           https://maven.apache.org/xsd/settings-1.0.0.xsd">
     <servers>
         <server>
-            <id>gitlab-maven</id>
+            <id>minitwit</id>
             <configuration>
                 <httpHeaders>
                     <property>
-                        <name>tfzrminitwit</name>
+                        <name>Deploy-Token</name>
                         <value>
                             x4Nqez9ytZyPAC7RMxyK
                         </value>
