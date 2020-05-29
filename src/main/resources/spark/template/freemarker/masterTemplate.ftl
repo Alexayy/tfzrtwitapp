@@ -7,7 +7,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" type="image/x-icon" href="https://www.shareicon.net/data/16x16/2016/09/07/827030_bird_512x512.png">
+        <link rel="shortcut icon" type="image/x-icon"
+              href="https://www.shareicon.net/data/16x16/2016/09/07/827030_bird_512x512.png">
         <title>${title} | MiniTwit
         </title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -97,10 +98,14 @@
 
                 <br>
                 <p>Tech Stack: </p>
-                <p><a href="http://sparkjava.com/" target="_blank">Spark Java</a>, <a href="https://spring.io/"
-                                                                                      target="_blank">Java Spring</a>,
+                <p><a href="http://sparkjava.com/" target="_blank">Spark Java</a>,
+                    <a href="https://spring.io/" target="_blank">Java Spring</a>,
                     <a href="https://freemarker.apache.org/" target="_blank">Java FreeMaker Template Engine</a>,
-                    <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4 CSS Framework</a></p>
+                    <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4 CSS Framework</a>,
+                    <a href="https://maven.apache.org/" target="_blank">Apache Maven</a>,
+                    <a href="www.heroku.com" target="_blank">Heroku</a>,
+                    <a href="http://hsqldb.org/" target="_blank">HSQLDB</a>
+                </p>
             </div>
 
         </footer>
