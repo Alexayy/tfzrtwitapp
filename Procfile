@@ -1,1 +1,1 @@
-web= java -jar out/artifacts/tfzrtwitcloneapp/tfzrtwitcloneapp.jar
+web:    java -cp "target/dependency/*":target/classes App
