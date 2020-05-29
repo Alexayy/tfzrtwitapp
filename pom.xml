@@ -22,17 +22,17 @@
 
     <repositories>
         <repository>
-            <id>dczrminitwit</id>
+            <id>tfzrminitwit</id>
             <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
         </repository>
     </repositories>
     <distributionManagement>
         <repository>
-            <id>dczrminitwit</id>
+            <id>tfzrminitwit</id>
             <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
         </repository>
         <snapshotRepository>
-            <id>dczrminitwit</id>
+            <id>tfzrminitwit</id>
             <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
         </snapshotRepository>
     </distributionManagement>
