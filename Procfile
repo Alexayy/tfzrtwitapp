@@ -1,1 +1,1 @@
-web:    java -cp "target/dependency/*":target/classes App
+web: java -jar target/minitwit-0.0.1-SNAPSHOT.jar
