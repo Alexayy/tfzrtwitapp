@@ -10,7 +10,7 @@
         <spark.version>2.9.1</spark.version>
         <spark.freemarker.version>2.3</spark.freemarker.version>
         <freemarker.version>2.3.25-incubating</freemarker.version>
-        <spring.version>4.3.16.RELEASE</spring.version>
+        <spring.version>5.2.6.RELEASE</spring.version>
         <hsqldb.version>2.3.4</hsqldb.version>
         <dbcp.version>2.1.1</dbcp.version>
         <jbcrypt.version>0.4.1</jbcrypt.version>
