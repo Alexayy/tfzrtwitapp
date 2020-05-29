@@ -22,21 +22,20 @@
 
     <repositories>
         <repository>
-            <id>gitlab-maven</id>
+            <id>dczrminitwit</id>
             <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
         </repository>
     </repositories>
     <distributionManagement>
         <repository>
-            <id>gitlab-maven</id>
+            <id>dczrminitwit</id>
             <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
         </repository>
         <snapshotRepository>
-            <id>gitlab-maven</id>
+            <id>dczrminitwit</id>
             <url>https://gitlab.com/api/v4/projects/19054800/packages/maven</url>
         </snapshotRepository>
     </distributionManagement>
-
 
     <dependencies>
         <!-- Spark Java -->

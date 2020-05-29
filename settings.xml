@@ -9,7 +9,8 @@
                 <httpHeaders>
                     <property>
                         <name>dczrminitwit</name>
-                        <value>x4Nqez9ytZyPAC7RMxyK
+                        <value>
+                            x4Nqez9ytZyPAC7RMxyK
                         </value>
                     </property>
                 </httpHeaders>
