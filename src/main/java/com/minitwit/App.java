@@ -17,6 +17,7 @@ import static spark.Spark.port;
 public class App {
 	public static void main(String[] args) {
 		port(getHerokuAssignedPort());
+		System.setProperty("com.google.inject.internal.cglib.$experimental_asm7", "true");
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(App.class);
 		new WebConfig(ctx.getBean(MiniTwitService.class));
 		ctx.registerShutdownHook();
