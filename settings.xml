@@ -6,7 +6,10 @@
                 <httpHeaders>
                     <property>
                         <name>Job-Token</name>
-                        <value>REPLACE_WITH_YOUR_DEPLOY_TOKEN</value>
+                        <value>ssh-rsa
+                            AAAAB3NzaC1yc2EAAAADAQABAAABgQDrY8QIa8QqyFeroOra6gcd7y/n3y4h0tVr2r4BwnlMB4ZDRZw1zE+/qRKdhf/97ob72970ZCasFNatFCkm0Gp2eczxMS/3cUuZK/FtTSoWtPNldZwuo5fAOGha1pxa4c6plTEUHURGG8lP2TKZ7cDw46C7Yk8lW1FY+L5g7vSR0gSAeFquqL5xc9/U9GT+sufx+pZwPKS5kFxf+49cUxKXXf1AdWELBmHgO0jXLj6C1XooKIaF1c0wsGQ/+xHyXk+H9p8VaXbVnIsT0Rc3ZbFDi23OtU8FWsrdIEA4+Rp7Un7yEJsMX7aUWj7AL0lhrAnjg4cTdwbG7sqjwd/XMc9znspXiWE+4pHOQMQVqKBEA4vtDWBZI8muVmWQbSr/vVtgsefVuaF97pLR1phG/UZCWBe1n5z/zrKSZwsGK53C4FkdaN19yg5X/vHGNvtf8CiqFbulHQSjGZ6JQSWe6+r6g+ldXIEGBsfnv6pb66fQRZlnoyKEIDBAwGNmuSaia/E=
+                            aleksa.cakic@gmail.com
+                        </value>
                     </property>
                 </httpHeaders>
             </configuration>
