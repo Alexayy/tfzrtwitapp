@@ -4,17 +4,9 @@
                           https://maven.apache.org/xsd/settings-1.0.0.xsd">
     <servers>
         <server>
-            <id>minitwit</id>
-            <configuration>
-                <httpHeaders>
-                    <property>
-                        <name>Deploy-Token</name>
-                        <value>
-                            x4Nqez9ytZyPAC7RMxyK
-                        </value>
-                    </property>
-                </httpHeaders>
-            </configuration>
+            <id>maven-tomcat-war-deployment-server></id>
+            <username>war-deployer</username>
+            <password>maven-tomcat-plugin</password>
         </server>
     </servers>
 </settings>
