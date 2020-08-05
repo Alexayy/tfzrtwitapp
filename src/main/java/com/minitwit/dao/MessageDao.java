@@ -11,6 +11,7 @@ import java.util.List;
  * @author Aleksa Cakic
  */
 public interface MessageDao {
+
 	List<Message> getUserTimelineMessages(User user);
 	
 	List<Message> getUserFullTimelineMessages(User user);

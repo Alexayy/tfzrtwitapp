@@ -30,7 +30,6 @@ public class WebConfig {
     private static final String USER_SESSION_ID = "user";
     private MiniTwitService service;
 
-
     public WebConfig(MiniTwitService service) {
         this.service = service;
         staticFileLocation("/public");
@@ -98,6 +97,7 @@ public class WebConfig {
             map.put("profileUser", profileUser);
             map.put("followed", followed);
             map.put("messages", messages);
+
             return new ModelAndView(map, "timeline.ftl");
         }, new FreeMarkerEngine());
         /*
@@ -265,7 +265,6 @@ public class WebConfig {
             }
         });
 
-
         /*
          * Registers a new message for the user.
          */
@@ -291,7 +290,6 @@ public class WebConfig {
                 halt();
             }
         });
-
 
         /*
          * Logs the user out and redirects to the public timeline

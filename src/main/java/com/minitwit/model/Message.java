@@ -7,72 +7,73 @@ import java.util.Date;
  * @author Aleksa Cakic
  */
 public class Message {
-	private int id;
-	
-	private int userId;
-	
-	private String username;
-	
-	private String text;
-	
-	private Date pubDate;
-	
-	private String pubDateStr;
-	
-	private String gravatar;
 
-	public int getId() {
-		return id;
-	}
+    private int id;
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    private int userId;
 
-	public int getUserId() {
-		return userId;
-	}
+    private String username;
 
-	public void setUserId(int userId) {
-		this.userId = userId;
-	}
+    private String text;
 
-	public String getUsername() {
-		return username;
-	}
+    private Date pubDate;
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    private String pubDateStr;
 
-	public String getText() {
-		return text;
-	}
+    private String gravatar;
 
-	public void setText(String text) {
-		this.text = text;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public Date getPubDate() {
-		return pubDate;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public void setPubDate(Date pubDate) {
-		this.pubDate = pubDate;
-		if(pubDate != null) {
-			pubDateStr = new SimpleDateFormat("yyyy-MM-dd @ HH:mm").format(pubDate);
-		}
-	}
+    public int getUserId() {
+        return userId;
+    }
 
-	public String getPubDateStr() {
-		return pubDateStr;
-	}
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
 
-	public String getGravatar() {
-		return gravatar;
-	}
+    public String getUsername() {
+        return username;
+    }
 
-	public void setGravatar(String gravatar) {
-		this.gravatar = gravatar;
-	}
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public Date getPubDate() {
+        return pubDate;
+    }
+
+    public void setPubDate(Date pubDate) {
+        this.pubDate = pubDate;
+        if (pubDate != null) {
+            pubDateStr = new SimpleDateFormat("yyyy-MM-dd @ HH:mm").format(pubDate);
+        }
+    }
+
+    public String getPubDateStr() {
+        return pubDateStr;
+    }
+
+    public String getGravatar() {
+        return gravatar;
+    }
+
+    public void setGravatar(String gravatar) {
+        this.gravatar = gravatar;
+    }
 }

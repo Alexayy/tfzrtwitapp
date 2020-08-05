@@ -22,13 +22,17 @@ public class CorsFilter {
     }
 
     public final static void apply() {
+
         Filter filter = new Filter() {
+
             @Override
             public void handle(Request request, Response response) throws Exception {
                 corsHeaders.forEach((key, value) -> {
                     response.header(key, value);
                 });
+
             }
+
         };
 
         Spark.after(filter);
