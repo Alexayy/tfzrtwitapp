@@ -28,7 +28,7 @@
 
                 <a class="navbar-brand" href="/">
                     <i class="fas fa-dove"></i>
-                    MiniTwit
+                    <h1>MiniTwit</h1>
                 </a>
             </div>
 
@@ -61,11 +61,7 @@
                 <br>
 
                 <p>Done by: </p>
-                <p>Aleksa Cakic; </p>
-                <p class="text-primary text-capitalize text-danger">SI 23/17</p>
-
-                <br>
-
+                <p>Aleksa Cakic;  <span class="text-primary text-capitalize text-danger">SI 23/17</span> </p>
                 <h2 class="display-4">
                     <a href="https://www.facebook.com/profile.php?id=100001669704325" target="_blank">
                         <i class="fab fa-facebook-square"></i>
@@ -99,31 +95,31 @@
                  <p> And </p>
 
                  <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
-                                <h2 class="display-4">
-                                    <a href="https://www.facebook.com/nbobinac" target="_blank">
-                                        <i class="fab fa-facebook-square"></i>
-                                    </a>
+                 <h2 class="display-4">
+                        <a href="https://www.facebook.com/nbobinac" target="_blank">
+                              <i class="fab fa-facebook-square"></i>
+                        </a>
 
-                                    <a href="https://www.linkedin.com/in/nikola-bobinac-5813b1150/" target="_blank">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
+                        <a href="https://www.linkedin.com/in/nikola-bobinac-5813b1150/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
 
-                                    <a href="https://www.youtube.com/shadonerd" target="_blank">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
+                        <a href="https://www.youtube.com/shadonerd" target="_blank">
+                             <i class="fab fa-youtube"></i>
+                        </a>
 
-                                    <a href="https://github.com/Shadochi" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
+                         <a href="https://github.com/Shadochi" target="_blank">
+                                <i class="fab fa-github"></i>
+                         </a>
 
-                                    <a href="https://gitlab.com/nikolabobinac" target="_blank">
-                                        <i class="fab fa-gitlab"></i>
-                                    </a>
+                         <a href="https://gitlab.com/nikolabobinac" target="_blank">
+                            <i class="fab fa-gitlab"></i>
+                         </a>
 
-                                    <a href="https://www.twitch.tv/shadonerd" target="_blank">
-                                         <i class="fab fa-twitch"></i>
-                                    </a>
-                                </h2>
+                         <a href="https://www.twitch.tv/shadonerd" target="_blank">
+                            <i class="fab fa-twitch"></i>
+                         </a>
+                 </h2>
 
                 <br>
                 <p>Tech Stack: </p>
