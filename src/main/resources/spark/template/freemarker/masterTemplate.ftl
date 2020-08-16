@@ -29,7 +29,7 @@
                 <a class="navbar-brand" href="/">
                     <i class="fas fa-dove"></i>
                     MiniTwit
-                    <h1 style="display: none;">MiniTwit<h1>
+                    <h1 style="display: none;">MiniTwit</h1>
                 </a>
             </div>
 
