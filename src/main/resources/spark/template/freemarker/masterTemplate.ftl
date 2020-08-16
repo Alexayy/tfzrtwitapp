@@ -95,6 +95,35 @@
                     </a>
                 </h1>
 
+                 <p> And </p>
+
+                 <p>Done by: Nikola Bobinac;
+                 <p class="text-primary text-capitalize text-danger">SI 18/17</p>
+
+                                <br>
+
+                                <h1 class="display-4">
+                                    <a href="https://www.facebook.com/nbobinac" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+
+                                    <a href="https://www.linkedin.com/in/nikola-bobinac-5813b1150/" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                    <a href="https://www.youtube.com/shadonerd" target="_blank">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+
+                                    <a href="https://github.com/Shadochi" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+
+                                    <a href="https://gitlab.com/nikolabobinac" target="_blank">
+                                        <i class="fab fa-gitlab"></i>
+                                    </a>
+                                </h1>
+
                 <br>
                 <p>Tech Stack: </p>
                 <p><a href="http://sparkjava.com/" target="_blank">Spark Java</a>,
