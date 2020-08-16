@@ -98,11 +98,7 @@
 
                  <p> And </p>
 
-                 <p>Nikola Bobinac; </p>
-                 <p class="text-primary text-capitalize text-danger">SI 18/17</p>
-
-                                <br>
-
+                 <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
                                 <h2 class="display-4">
                                     <a href="https://www.facebook.com/nbobinac" target="_blank">
                                         <i class="fab fa-facebook-square"></i>
