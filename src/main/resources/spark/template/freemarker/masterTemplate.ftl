@@ -95,7 +95,8 @@
 
                  <p> And </p>
 
-                 <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
+                 <p class="js-nikola-name">Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
+                 <div class="js-nikola-links links-hidden">
                  <h2 class="display-4">
                         <a href="https://www.facebook.com/nbobinac" target="_blank">
                               <i class="fab fa-facebook-square"></i>
@@ -121,6 +122,7 @@
                             <i class="fab fa-twitch"></i>
                          </a>
                  </h2>
+                 </div>
 
                 <br>
                 <p>Tech Stack: </p>
@@ -146,6 +148,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js">
     </body>
     </html>
 </#macro>

@@ -25,3 +25,7 @@ body {
         max-width: 730px;
     }
 }
+
+.links-hidden {
+    display: none;
+}
