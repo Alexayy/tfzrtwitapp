@@ -10,6 +10,7 @@ import org.eclipse.jetty.util.MultiMap;
 import org.eclipse.jetty.util.UrlEncoded;
 import spark.ModelAndView;
 import spark.Request;
+import spark.Spark;
 import spark.template.freemarker.FreeMarkerEngine;
 import spark.utils.StringUtils;
 
@@ -32,7 +33,7 @@ public class WebConfig {
 
     public WebConfig(MiniTwitService service) {
         this.service = service;
-        staticFileLocation("/public");
+        Spark.staticFileLocation("/public");
         setupRoutes();
     }
 
@@ -54,6 +55,7 @@ public class WebConfig {
             map.put("messages", messages);
             return new ModelAndView(map, "timeline.ftl");
         }, new FreeMarkerEngine());
+
         before("/", (req, res) -> {
             User user = getAuthenticatedUser(req);
             if (user == null) {
@@ -61,7 +63,6 @@ public class WebConfig {
                 halt();
             }
         });
-
 
         /*
          * Displays the latest messages of all users.
@@ -75,7 +76,6 @@ public class WebConfig {
             map.put("messages", messages);
             return new ModelAndView(map, "timeline.ftl");
         }, new FreeMarkerEngine());
-
 
         /*
          * Displays a user's tweets.
@@ -100,6 +100,7 @@ public class WebConfig {
 
             return new ModelAndView(map, "timeline.ftl");
         }, new FreeMarkerEngine());
+
         /*
          * Checks if the user exists
          */
@@ -110,7 +111,6 @@ public class WebConfig {
                 halt(404, "User not Found");
             }
         });
-
 
         /*
          * Adds the current user as follower of the given user.
@@ -124,6 +124,7 @@ public class WebConfig {
             res.redirect("/t/" + username);
             return null;
         });
+
         /*
          * Checks if the user is authenticated and the user to follow exists
          */
@@ -138,7 +139,6 @@ public class WebConfig {
                 halt(404, "User not Found");
             }
         });
-
 
         /*
          * Removes the current user as follower of the given user.
@@ -230,6 +230,7 @@ public class WebConfig {
         post("/register", (req, res) -> {
             Map<String, Object> map = new HashMap<>();
             User user = new User();
+
             try {
                 MultiMap<String> params = new MultiMap<String>();
                 UrlEncoded.decodeTo(req.body(), params, "UTF-8");
@@ -238,6 +239,7 @@ public class WebConfig {
                 halt(501);
                 return null;
             }
+
             String error = user.validate();
             if (StringUtils.isEmpty(error)) {
                 User existingUser = service.getUserbyUsername(user.getUsername());
@@ -249,6 +251,7 @@ public class WebConfig {
                     error = "The username is already taken";
                 }
             }
+
             map.put("error", error);
             map.put("username", user.getUsername());
             map.put("email", user.getEmail());
@@ -303,12 +306,10 @@ public class WebConfig {
 
     private void addAuthenticatedUser(Request request, User u) {
         request.session().attribute(USER_SESSION_ID, u);
-
     }
 
     private void removeAuthenticatedUser(Request request) {
         request.session().removeAttribute(USER_SESSION_ID);
-
     }
 
     private User getAuthenticatedUser(Request request) {

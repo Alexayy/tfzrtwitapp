@@ -20,7 +20,16 @@
     </properties>
 
     <dependencies>
-        <!-- Spark Java -->
+
+    <!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
+    <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>jquery</artifactId>
+        <version>3.5.1</version>
+    </dependency>
+
+
+    <!-- Spark Java -->
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-core</artifactId>
