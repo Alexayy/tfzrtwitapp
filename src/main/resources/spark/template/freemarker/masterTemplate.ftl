@@ -60,12 +60,13 @@
                 <h1 class="display-4">Twitter Clone</h1>
                 <br>
 
-                <p>Done by: Aleksa Cakic;
+                <p>Done by: </p>
+                <p>Aleksa Cakic; </p>
                 <p class="text-primary text-capitalize text-danger">SI 23/17</p>
 
                 <br>
 
-                <h1 class="display-4">
+                <h2 class="display-4">
                     <a href="https://www.facebook.com/profile.php?id=100001669704325" target="_blank">
                         <i class="fab fa-facebook-square"></i>
                     </a>
@@ -93,16 +94,16 @@
                     <a href="https://gitlab.com/Alexayy" target="_blank">
                         <i class="fab fa-gitlab"></i>
                     </a>
-                </h1>
+                </h2>
 
                  <p> And </p>
 
-                 <p>Done by: Nikola Bobinac;
+                 <p>Nikola Bobinac; </p>
                  <p class="text-primary text-capitalize text-danger">SI 18/17</p>
 
                                 <br>
 
-                                <h1 class="display-4">
+                                <h2 class="display-4">
                                     <a href="https://www.facebook.com/nbobinac" target="_blank">
                                         <i class="fab fa-facebook-square"></i>
                                     </a>
@@ -126,7 +127,7 @@
                                     <a href="https://www.twitch.tv/shadonerd" target="_blank">
                                          <i class="fab fa-twitch"></i>
                                     </a>
-                                </h1>
+                                </h2>
 
                 <br>
                 <p>Tech Stack: </p>
