@@ -36,7 +36,10 @@ public class WebConfig {
         this.service = service;
 
         Spark.staticFileLocation("/public");
-        //Spark.staticFileLocation("/public/scripts/scripts.js");
+        Spark.staticFileLocation("public/");
+        Spark.staticFileLocation("public");
+        Spark.staticFileLocation("/public/scripts/");
+        Spark.staticFileLocation("/public/scripts");
 
         setupRoutes();
     }
