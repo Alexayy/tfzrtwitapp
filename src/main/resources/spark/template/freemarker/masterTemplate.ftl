@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="script" href="../../../assets/scripts.js">
     </head>
     <body>
     <div class="container">
@@ -148,9 +149,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-    <script src="/public/js/scripts.js"></script>
-    <script src="/public/scripts/scripts.js"></script>
-    <script src="scripts.js"></script>
+    <script src="../../"></script>
 
     </body>
     </html>

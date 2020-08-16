@@ -32,8 +32,12 @@ public class WebConfig {
     private MiniTwitService service;
 
     public WebConfig(MiniTwitService service) {
+
         this.service = service;
+
         Spark.staticFileLocation("/public");
+        //Spark.staticFileLocation("/public/scripts/scripts.js");
+
         setupRoutes();
     }
 

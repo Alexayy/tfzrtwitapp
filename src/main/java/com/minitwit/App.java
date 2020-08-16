@@ -5,7 +5,6 @@ import com.minitwit.service.impl.MiniTwitService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import spark.Spark;
 
 import static spark.Spark.port;
 
@@ -18,7 +17,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        Spark.staticFileLocation("/public");
+        //Spark.staticFileLocation("/public");
 
         port(getHerokuAssignedPort());
 
