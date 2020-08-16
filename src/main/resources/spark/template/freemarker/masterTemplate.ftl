@@ -122,6 +122,10 @@
                                     <a href="https://gitlab.com/nikolabobinac" target="_blank">
                                         <i class="fab fa-gitlab"></i>
                                     </a>
+
+                                    <a href="https://www.twitch.tv/shadonerd" target="_blank">
+                                         <i class="fab fa-twitch"></i>
+                                    </a>
                                 </h1>
 
                 <br>
