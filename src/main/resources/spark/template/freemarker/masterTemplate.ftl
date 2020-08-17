@@ -63,11 +63,11 @@
                 <br>
 
                 <p>Done by: </p>
-                <div class="js-aleksa-name">
+                <div class="people-names js-aleksa-name">
                     <p>Aleksa Cakic;  <span class="text-primary text-capitalize text-danger">SI 23/17</span> </p>
                 </div>
                 <p> And </p>
-                <div class="js-nikola-name">
+                <div class="people-names js-nikola-name">
                      <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
                 </div>
                 <div class="js-aleksa-links links-hidden">

@@ -29,3 +29,12 @@ body {
 .links-hidden {
     display: none;
 }
+
+.people-names {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.people-names:hover {
+    text-decoration-color: red;
+}
