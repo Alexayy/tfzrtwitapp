@@ -63,14 +63,14 @@
                 <br>
 
                 <p>Done by: </p>
-                <div class="js-aleksa-name links-hidden">
+                <div class="js-aleksa-name">
                     <p>Aleksa Cakic;  <span class="text-primary text-capitalize text-danger">SI 23/17</span> </p>
                 </div>
                 <p> And </p>
                 <div class="js-nikola-name">
                      <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
                 </div>
-                <div class="js-aleksa-links">
+                <div class="js-aleksa-links links-hidden">
                 <h2 class="display-4">
                     <a href="https://www.facebook.com/profile.php?id=100001669704325" target="_blank">
                         <i class="fab fa-facebook-square"></i>
