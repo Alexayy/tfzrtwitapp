@@ -42,9 +42,11 @@ body {
 .border-links-aleksa {
     border: 1px solid red;
     border-radius: 16px;
+    display: inline-block
 }
 
 .border-links-nikola {
     border: 1px solid green;
     border-radius: 16px;
+    display: inline-block
 }
