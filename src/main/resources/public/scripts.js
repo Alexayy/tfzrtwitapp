@@ -9,4 +9,4 @@
             {
                  $('.js-nikola-links').addClass("links-hidden");
             }
-         }
+         });
