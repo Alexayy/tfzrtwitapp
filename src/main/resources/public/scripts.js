@@ -8,7 +8,7 @@
             if ($('.js-nikola-links').hasClass("links-hidden"))
             {
                 $('.js-nikola-links').removeClass("links-hidden");
-                $('.js-nikola-links').addClass("border-link-nikola");
+                $('.js-nikola-links').addClass("border-links-nikola");
             }
             else
             {
