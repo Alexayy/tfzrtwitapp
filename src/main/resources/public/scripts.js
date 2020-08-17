@@ -1,6 +1,6 @@
 
 		$('.js-nikola-name').on('click', function() {
-		    if ($('.js-aleksa-links').hasClass("links-hidden"))
+		    if (!$('.js-aleksa-links').hasClass("links-hidden"))
 		    {
 		        $('.js-aleksa-links').removeClass("links-hidden")
 		    }
@@ -16,7 +16,7 @@
 
 
 		$('.js-aleksa-name').on('click', function() {
-		    if ($('.js-nikola-links').hasClass("links-hidden"))
+		    if (!$('.js-nikola-links').hasClass("links-hidden"))
 		    {
 		        $('.js-nikola-links').removeClass("links-hidden")
 		    }
