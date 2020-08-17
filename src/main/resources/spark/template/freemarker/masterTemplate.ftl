@@ -58,7 +58,7 @@
                     <i class="fas fa-dove"></i>
                     MiniTwit &mdash; University Assignment
                 </p>
-                <h1 class="display-4">Twitter Clone</h1>
+                <h2 class="display-4">Twitter Clone</h2>
                 <br>
 
                 <p>Done by: </p>
@@ -94,8 +94,9 @@
                 </h2>
 
                  <p> And </p>
-
-                 <p class="js-nikola-name">Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
+                 <div class="js-nikola-name">
+                 <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
+                 </div>
                  <div class="js-nikola-links links-hidden">
                  <h2 class="display-4">
                         <a href="https://www.facebook.com/nbobinac" target="_blank">
