@@ -70,7 +70,7 @@
                 <div class="people-names js-nikola-name">
                      <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
                 </div>
-                <div class="js-aleksa-links border-links-aleks links-hidden">
+                <div class="js-aleksa-links border-links-aleksa links-hidden">
                 <h2 class="display-4">
                     <a href="https://www.facebook.com/profile.php?id=100001669704325" target="_blank">
                         <i class="fab fa-facebook-square"></i>
