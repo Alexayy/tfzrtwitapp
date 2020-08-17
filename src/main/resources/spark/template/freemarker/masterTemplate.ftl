@@ -63,7 +63,14 @@
                 <br>
 
                 <p>Done by: </p>
-                <p>Aleksa Cakic;  <span class="text-primary text-capitalize text-danger">SI 23/17</span> </p>
+                <div class="js-aleksa-name links-hidden">
+                    <p>Aleksa Cakic;  <span class="text-primary text-capitalize text-danger">SI 23/17</span> </p>
+                </div>
+                <p> And </p>
+                <div class="js-nikola-name">
+                     <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
+                </div>
+                <div class="js-aleksa-links">
                 <h2 class="display-4">
                     <a href="https://www.facebook.com/profile.php?id=100001669704325" target="_blank">
                         <i class="fab fa-facebook-square"></i>
@@ -93,11 +100,8 @@
                         <i class="fab fa-gitlab"></i>
                     </a>
                 </h2>
+                </div>
 
-                 <p> And </p>
-                 <div class="js-nikola-name">
-                 <p>Nikola Bobinac;  <span class="text-primary text-capitalize text-danger">SI 18/17</span> </p>
-                 </div>
                  <div class="js-nikola-links links-hidden">
                  <h2 class="display-4">
                         <a href="https://www.facebook.com/nbobinac" target="_blank">
