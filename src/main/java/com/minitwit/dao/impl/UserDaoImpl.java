@@ -48,6 +48,11 @@ public class UserDaoImpl implements UserDao {
 	 */
 	@Override
 	public User getUserbyUsername(String username) {
+
+		if (username == null || username.equals(""))
+		{
+			throw  new IllegalArgumentException("The object 'username' cannot be null");
+		}
 		Map<String, Object> params = new HashMap<String, Object>();
         params.put("name", username);
         
@@ -73,6 +78,15 @@ public class UserDaoImpl implements UserDao {
 	 */
 	@Override
 	public void insertFollower(User follower, User followee) {
+		if (follower == null)
+		{
+			throw  new IllegalArgumentException("The object 'follower' cannot be null");
+		}
+		if (followee == null)
+		{
+			throw  new IllegalArgumentException("The object 'followee' cannot be null");
+		}
+
 		Map<String, Object> params = new HashMap<String, Object>();
         params.put("follower", follower.getId());
         params.put("followee", followee.getId());
@@ -89,6 +103,16 @@ public class UserDaoImpl implements UserDao {
 	 */
 	@Override
 	public void deleteFollower(User follower, User followee) {
+
+		if (follower == null)
+		{
+			throw  new IllegalArgumentException("The object 'follower' cannot be null");
+		}
+		if (followee == null)
+		{
+			throw  new IllegalArgumentException("The object 'followee' cannot be null");
+		}
+
 		Map<String, Object> params = new HashMap<String, Object>();
         params.put("follower", follower.getId());
         params.put("followee", followee.getId());
@@ -106,6 +130,16 @@ public class UserDaoImpl implements UserDao {
 	 */
 	@Override
 	public boolean isUserFollower(User follower, User followee) {
+
+		if (follower == null)
+		{
+			throw  new IllegalArgumentException("The object 'follower' cannot be null");
+		}
+		if (followee == null)
+		{
+			throw  new IllegalArgumentException("The object 'followee' cannot be null");
+		}
+
 		Map<String, Object> params = new HashMap<String, Object>();
         params.put("follower", follower.getId());
         params.put("followee", followee.getId());
@@ -124,6 +158,11 @@ public class UserDaoImpl implements UserDao {
 	 */
 	@Override
 	public void registerUser(User user) {
+
+		if (user == null)
+		{
+			throw  new IllegalArgumentException("The object 'user' cannot be null");
+		}
 		Map<String, Object> params = new HashMap<String, Object>();
         params.put("username", user.getUsername());
         params.put("email", user.getEmail());
