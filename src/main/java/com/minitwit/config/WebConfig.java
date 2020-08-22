@@ -174,7 +174,6 @@ public class WebConfig {
             }
         });
 
-
         /*
          * Presents the login form or redirect the user to
          * her timeline if it's already logged in
@@ -221,7 +220,6 @@ public class WebConfig {
                 halt();
             }
         });
-
 
         /*
          * Presents the register form or redirect the user to
@@ -290,6 +288,7 @@ public class WebConfig {
             res.redirect("/");
             return null;
         });
+
         /*
          * Checks if the user is authenticated
          */

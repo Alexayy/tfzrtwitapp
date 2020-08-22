@@ -28,7 +28,6 @@
         <version>3.5.1</version>
     </dependency>
 
-
     <!-- Spark Java -->
         <dependency>
             <groupId>com.sparkjava</groupId>
@@ -41,6 +40,19 @@
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-template-freemarker</artifactId>
             <version>${spark.freemarker.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>5.2.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>5.2.6.RELEASE</version>
         </dependency>
 
         <!-- Freemarker -->
