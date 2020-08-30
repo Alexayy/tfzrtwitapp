@@ -1,7 +1,7 @@
 # Twitter Clone
 
 This is Twitter Clone application assignment given out by the course instructor and professor prof. Dr. Zoltan Kazi.
-The project is done as open source project, in one-man-team enviroment.
+The project is done as open source project, in collaboration of two students.
 
 It simulates barebone and skeleton functions of Twitter.
 
